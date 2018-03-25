@@ -5,13 +5,12 @@ class Song
   @@genres = []
   def initialize
     @@count += 1
-    @@genres << genre if @@genres.inlude?(genre) == fa;se
+    @@genres << genre if @@genres.inlude?(genre) == false
   end
   def self.count
     @@count
   end
   def self.genres
     @@genres
-
   end
 end

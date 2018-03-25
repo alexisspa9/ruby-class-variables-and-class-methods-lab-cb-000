@@ -44,5 +44,6 @@ class Song
         artists[artist] = 1
       end
   end
+  artists
 end
 end

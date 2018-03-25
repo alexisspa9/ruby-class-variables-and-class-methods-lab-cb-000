@@ -5,6 +5,9 @@ class Song
   @@genres = []
   @@artists = []
   def initialize(name, artist, genre)
+    name
+    artist
+    genre
     @@count += 1
     @@genres << genre if @@genres.include?(genre) == false
   end
